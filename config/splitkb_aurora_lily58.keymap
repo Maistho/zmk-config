@@ -56,11 +56,11 @@
 // |       |  %  |  ^  |  [   |  ]   |  >   | scrcap |  |vidcap |      |  _    |  +    |  {   |   }   |  "|"  |
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
-&kp TILDE &kp F1        &kp F2       &kp F3     &kp F4     &kp F5                                     &kp F6   &kp F7     &kp F8   &kp F9    &kp F10   &kp DEL
-&trans    &trans        &se_bt       &kp RA(N7) &kp RA(N0) &kp RA(NUBS)                               &trans   &kp LS(N0) &kp UP   &kp MINUS &kp EQUAL &kp RIGHT_BRACKET
-&trans    &kp RA(MINUS) &kp LS(N7)   &kp LS(N8) &kp LS(N9) &kp NUBS                                   &kp HOME &kp LEFT   &kp DOWN &kp RIGHT &kp END   &kp NUHS
-&trans    &kp LS(N5)    &kp LS(RBRC) &kp RA(N8) &kp RA(N9) &kp LS(NUBS) &kp LC(SYSREQ)  &kp LS(SYSREQ) &trans   &trans     &trans   &trans    &trans    &trans
-                                     &trans     &trans     &trans       &trans          &trans        &trans   &trans     &trans
+&kp TILDE &kp F1        &kp F2       &kp F3     &kp F4     &kp F5                                    &kp F6   &kp F7     &kp F8   &kp F9    &kp F10   &kp DEL
+&trans    &trans        &se_bt       &kp RA(N7) &kp RA(N0) &kp RA(NUBS)                              &trans   &kp LS(N0) &kp UP   &kp MINUS &kp EQUAL &kp RIGHT_BRACKET
+&trans    &kp RA(MINUS) &kp LS(N7)   &kp LS(N8) &kp LS(N9) &kp NUBS                                  &kp HOME &kp LEFT   &kp DOWN &kp RIGHT &kp END   &kp NUHS
+&trans    &kp LS(N5)    &kp LS(RBRC) &kp RA(N8) &kp RA(N9) &kp LS(NUBS) &kp LC(PSCRN)  &kp LS(PSCRN) &trans   &trans     &trans   &trans    &trans    &trans
+                                     &trans     &trans     &trans       &trans         &trans        &trans   &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
